@@ -1,0 +1,328 @@
+
+body{
+    font-family: Helvetica, Verdana, sans-serif;
+    background-color:lightgrey;
+}
+nav{
+    background-color: black;
+    height: 60px;
+    margin: -8px;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.name{
+    width: 200px;
+    margin-left: 150px;
+    text-transform: none;
+    margin-top: 20px;
+    color: white;
+    float: left;
+    font-size: 15px;
+}
+.name span{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Times New Roman, serif;
+    color:#55efc4;
+}
+.personal-site{
+    width: 100px;
+    height: 20px;
+    margin-left: 45px;
+    margin-top: -17px;
+}
+.navigation{
+    width: 400px;
+    float: right;
+    margin-right: -20px;
+    margin-top:10px;
+    word-spacing: 8px;
+    font-size: 12px;
+    color: lightgrey;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li:hover{
+    border-bottom: 1px solid #55efc4;
+    padding-bottom: 1px;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: lightgrey;
+}
+#img img {
+    max-width: 100%;
+    border-radius: 3px;
+}
+#img{
+    width: 300px;
+    height: 400px;
+    margin-top: -72px;
+}
+.welcome-div{
+    display: flex;
+    justify-content: space-evenly;
+    clear: both;
+    margin-top: -108px;
+
+
+}
+
+.welcome-div div:nth-of-type(2) div:first-of-type div:first-of-type{
+    color: #abffff;
+    font-size: 20px;
+
+}
+#elena{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -62px;
+    width: 100px;
+}
+#keckaroska{
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -67px;
+    margin-left: 47px;
+    width: 100px;
+
+}
+#second-div{
+    color: #abffff;
+    font-size: 20px;
+    margin-top: -62px;
+    width: 550px;
+}
+.welcome-div div:nth-of-type(2){
+    color: #abffff;
+    padding-top: 70px;
+    width: 400px;
+}
+#read-more div{
+    color: whitesmoke;
+    width: 100px;
+    font-size: 14px;
+    height: 17px;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    text-align: center;
+    margin-left: 1030px;
+}
+#read-more img{
+    width: 40px;
+    height: 40px;
+    margin-left: 1070px;
+    margin-top: 10px;
+}
+
+#page-top a {
+    text-decoration: none;
+}
+
+#page-top{
+    background-color: #55efc4;
+    background-image: linear-gradient(315deg, #55efc4 0%, #000000 74%);
+    height: 455px;
+    margin: -8px;
+    padding-top: 300px;
+    color: white;
+}
+#about-me{
+    width: 1100px;
+    margin:auto;
+}
+#heading{
+    padding-top: 20px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+
+}
+#my-story{
+    width: 400px;
+    float: left;
+    text-indent: 10px;
+    color: black;
+}
+#my-story h3, #personal-information caption{
+    padding-bottom: 20px;
+    color: #037e61;
+    font-weight: bold;
+    font-size: 24px;
+    justify-content: left;
+}
+#image{
+    width: 200px;
+    height: 200px;
+}
+#image img{
+    max-width: 100%;
+    padding: 5px;
+    border-radius: 1px;
+    border: 1px solid darkgrey;
+    margin-left: 440px;
+    margin-top: -200px;
+
+}
+#personal-information{
+    width: 310px;
+    float: right;
+    margin-top: -170px;
+}
+#personal-information table td{
+    border-bottom: 1px solid darkgrey;
+    padding-bottom: 2px;
+    padding-top: 15px;
+}
+#personal-information table{
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+#projects{
+    margin-top:150px;
+}
+#all-projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+#projects .heading{
+    width: 100px;
+    margin: 50px auto;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+}
+#all-projects h4{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: #037e61;
+    text-align: center;
+}
+#all-projects>div{
+    width: 250px;
+    height: 200px;
+    border: 1px solid darkgrey;
+    box-shadow: 2px 2px gray;
+    padding: 10px;
+}
+
+#all-projects a{
+    text-decoration: none;
+}
+#all-projects .more{
+    border: 1px solid #00ae7d;
+    background-color: #00ae7d;
+    width: 60px;
+    height: 25px;
+    margin: 0 auto;
+    box-shadow: 2px 2px darkslategrey;
+    text-align: center;
+    padding-top: 3px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    bottom: -30px;
+}
+#all-projects .more:hover{
+    background-color: #037e61;
+    border: 1px solid #037e61;
+    box-shadow: 2px 2px lightslategray;
+}
+#more h2{
+    width: 100px;
+    margin: 50px auto;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 20px;
+}
+#intro{
+    width: 320px;
+    border-bottom: 2px dotted #037e61;
+    margin: 10px auto;
+}
+#characteristics{
+    display: flex;
+    justify-content: space-evenly;
+}
+#characteristics>div{
+    margin-top: 50px;
+    width: 150px;
+    height: 130px;
+    border-radius: 42px 0;
+    border: 2px solid #00ae7d;
+    background-color: #00ae7d;
+    color: white;
+}
+.inside img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    margin: 10px 51px;
+}
+.description{
+    margin: 2px 27px;
+}
+.description:nth-of-type(3){
+    margin-top: -10px;
+}
+#contact h2{
+    width: 100px;
+    margin: 50px auto;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-style: oblique;
+    padding-top: 20px;
+}
+#container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact-description{
+    width: 290px;
+    height: fit-content;
+    text-align: right;
+    padding: 10px;
+    border-bottom: 2px solid #00ae7d;
+    border-top: 2px solid #00ae7d;
+}
+#call, #email{
+    width: 337px;
+    border-bottom: 2px solid #00ae7d;
+    border-top: 2px solid #00ae7d;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+#contact img{
+    width: 30px;
+    height: 30px;
+}
+#number, #mail{
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -25px;
+    margin-bottom: 9px;
+}
+#footer{
+    height:33px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    margin: -6px -8px;
+    background-color: #00ae7d;
+}
